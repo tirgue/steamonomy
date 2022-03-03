@@ -1,0 +1,19 @@
+{
+    "name": "steamonomy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "nodemon --ignore build.js --exec npm run build",
+        "build": "browserify main.js -o build.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "browserify": "^17.0.0",
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "axios": "^0.26.0"
+    }
+}
